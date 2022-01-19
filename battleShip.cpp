@@ -4,6 +4,15 @@
 #include <stdio.h>
 #include<conio.h>
 void main() {
+    printf("%0*d", 42, 0);
+    printf("\n%0*d", 42, 0);
+    printf("\n%0*d", 10, 0);
+    printf(" WELCOME TO BATTLE SHIP");
+    printf("\t%0*d", 10, 0);
+    printf("\n%0*d", 42, 0);
+    printf("\n%0*d", 42, 0);
+    
+
     int option = 0, table[ROW][COLS], table2[ROW][COLS];
     int positionX = 0;
     char positionY = 0;
@@ -15,7 +24,7 @@ void main() {
    
     //main menu 
     do {//menu options validate
-        printf("1.easy\n 2.medium\n 3.hard\n 4.extreme\n 0.Exit\n"); //option for choose difficulty
+        printf("\n1.easy\n 2.medium\n 3.hard\n 4.extreme\n 0.Exit\n"); //option for choose difficulty
         printf("what difficulty would you like to select:\n");
         scanf("%d", &option);
 
